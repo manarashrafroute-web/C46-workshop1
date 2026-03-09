@@ -30,8 +30,8 @@ export default () => {
         })
     })
 
-    var x = 5
-    console.log(x);
+  console.log("manar");
+  
 
 
     app.listen(3000, () => {
