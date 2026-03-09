@@ -214,4 +214,8 @@ userController.get('/list', async (req, res) => {
 userController.get('/findByPk/:userId', userServices.userByPk)
 
 
+
+userController.get('/findByPk/:userId', userServices.UpdatePasswordServices)
+
+
 export default userController
